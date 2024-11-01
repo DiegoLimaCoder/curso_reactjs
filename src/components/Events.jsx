@@ -1,11 +1,16 @@
 export const Events = () => {
-  let count = 1;
+  const handleClick = () => {
+    console.log("executou");
+  };
+
+  const printMyName = (name) => {
+    console.log("olá " + name);
+  };
 
   return (
     <div>
-      <button onClick={() => console.log(`button foi clicado ${count++}x`)}>
-        Clique aqui
-      </button>
+      <button onClick={handleClick}>Clique aqui</button>
+      <button onClick={() => printMyName("Diego")}>Mostra nome</button>
     </div>
   );
 };
