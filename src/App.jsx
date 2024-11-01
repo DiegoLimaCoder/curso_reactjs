@@ -1,11 +1,11 @@
-import { ListRender } from "./components/ListRender";
+import { ConditionalRender } from "./components/ConditionalRender";
 
 function App() {
   return (
     <>
       <h1>Avançando no React</h1>
-      {/* Previous state */}
-      <ListRender />
+      {/* Renderização condicional */}
+      <ConditionalRender />
     </>
   );
 }
