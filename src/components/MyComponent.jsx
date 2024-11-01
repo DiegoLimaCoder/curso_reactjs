@@ -1,10 +1,7 @@
-import { FristComponent } from "./FristComponent";
-
 export const MyComponent = () => {
   return (
     <div>
-      <h3>Eu estou em vários componente</h3>
-      <FristComponent />
+      <h2>Componente falso</h2>
     </div>
   );
 };

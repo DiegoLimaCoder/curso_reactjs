@@ -11,3 +11,11 @@
 * Quando temos lógica complexas, é mais indicado criar um função para o evento
 
 * Isso vai separar as responsabilidade, e deixar nosso código mais fácil de dar manuntenção
+
+# Funções de renderização
+
+* Podemos criar funções nos componentes que retornam jsx
+
+* Isso pode ser utilizado para um renderização condicional, por exemplo
+
+* Fazendo que o JSX varie dependendo do resultado da operação

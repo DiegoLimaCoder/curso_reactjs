@@ -1,7 +1,7 @@
 export const FristComponent = () => {
   return (
     <div>
-      <h2>Meu Primeiro componente.</h2>
+      <h2>Componente true</h2>
     </div>
   );
 };
