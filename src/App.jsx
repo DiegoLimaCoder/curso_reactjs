@@ -1,12 +1,11 @@
-
-import { Data } from "./components/Data";
+import { ListRender } from "./components/ListRender";
 
 function App() {
   return (
     <>
       <h1>Avançando no React</h1>
-      {/* UseState */}
-      <Data />
+      {/* Renderização de lista */}
+      <ListRender />
     </>
   );
 }
