@@ -1,11 +1,11 @@
-import { ConditionalRender } from "./components/ConditionalRender";
+import { ShowUserName } from "./components/ShowUserName";
 
 function App() {
   return (
     <>
       <h1>Avançando no React</h1>
-      {/* Renderização condicional */}
-      <ConditionalRender />
+      {/*As Props do componente */}
+      <ShowUserName name="Diego" />
     </>
   );
 }
