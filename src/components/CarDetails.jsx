@@ -2,7 +2,7 @@
 function CarDetails({ brand, color }) {
   return (
     <>
-      <h2>Detalhes do carro</h2>
+      <h2>Detalhe do carro</h2>
       <ul>
         <li>{brand}</li>
         <li>{color}</li>
