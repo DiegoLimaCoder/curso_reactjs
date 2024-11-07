@@ -37,3 +37,11 @@
 - Basta criar a função no componente pai, e enviar como prop
 
 - No componente filho, podemos utilizar para alguns eventos
+
+# State lift
+
+- Elevação de state ou state lift, é quando um valor é levado do componente filho para o pai
+
+- Geralmente temos um componente que usa o state e outro que o altera
+
+- Então o componente pai vai gerenciar os valores e passar para os fihlos as alterações;
