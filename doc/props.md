@@ -19,3 +19,13 @@
 * Desta maneira: MyComponent({name,age})
 
 * Utilizamos então name, em vez de props.age
+
+# Children props
+
+* Children prop é utilizado quando um componente precisa ter jsx dentro dele
+
+* Porém o JSX vem do componente pai
+
+* Então o componente age como um container, obrigando esse JSX
+
+* E Children entra como uma props do componente
