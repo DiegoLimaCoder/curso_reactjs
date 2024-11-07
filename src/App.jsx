@@ -1,13 +1,11 @@
-import Container from "./components/Container";
+import ExecuteFunction from "./components/ExecuteFunction";
 
 function App() {
   return (
     <>
       <h1>Avançando no React</h1>
-      {/* Children props */}
-      <Container>
-        <p>Componente filho</p>
-      </Container>
+      {/* Funções em props */}
+      <ExecuteFunction myFunction={() => alert("Hello world !")} />
     </>
   );
 }
