@@ -1,3 +1,4 @@
+import CarDetails from "./components/CarDetails";
 import { ShowUserName } from "./components/ShowUserName";
 
 function App() {
@@ -6,6 +7,8 @@ function App() {
       <h1>Avançando no React</h1>
       {/*As Props do componente */}
       <ShowUserName name="Diego" />
+      {/* Desestruturação de props */}
+      <CarDetails brand="BMW" color="Red" />
     </>
   );
 }
